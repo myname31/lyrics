@@ -1,1 +1,16 @@
-
+{
+  "name": "myname31-lyrics",
+  "version": "1.0.0",
+  "description": "Comprehensive Lyrics Engine with LRC Parser, Multi-Provider Fetcher, and Telegram Realtime Runner",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": ["lyrics", "lrc", "lrclib", "netease", "telegram-bot"],
+  "author": "myname31",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
