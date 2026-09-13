@@ -42,20 +42,34 @@
 
 ## 📥 Installation
 
-Clone the repository:
+Install directly from GitHub:
 
 ```bash
-git clone https://github.com/myname31/lyrics.git
-cd lyrics
+npm install github:myname31/lyrics
 ```
 
-Install dependencies:
+Or install a specific branch:
 
 ```bash
-npm install
+npm install github:myname31/lyrics#main
 ```
 
-The project is designed to be used directly from the repository rather than published as an npm package.
+After installation, import the library normally:
+
+### ESM
+
+```js
+import { getLyrics } from '@myname31/lyrics';
+```
+
+### CommonJS
+
+```js
+const { getLyrics } = require('@myname31/lyrics');
+```
+
+> This project is distributed directly through GitHub and is not published to the npm registry.
+> 
 
 ---
 
